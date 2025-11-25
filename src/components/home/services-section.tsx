@@ -1,5 +1,5 @@
 import { Cloud, Database, Lock, Code, Network, Smartphone } from "lucide-react"
-
+import datacenterIT from "@/assets/images/it-professional-working-on-servers-in-data-center-.jpg"
 
 const services = [
   {
@@ -53,7 +53,7 @@ export function ServicesSection() {
           </div>
 
           <div className="relative aspect-[4/3] rounded-3xl overflow-hidden">
-            <img src="../src/assets/images/it-professional-working-on-servers-in-data-center-.jpg" alt="Profissional de TI"  className="object-cover" />
+            <img src={datacenterIT} alt="Profissional de TI"  className="object-cover" />
           </div>
         </div>
 

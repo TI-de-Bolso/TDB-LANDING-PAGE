@@ -1,5 +1,5 @@
 import { Shield, Zap, Users, Clock, Award, HeadphonesIcon, CheckCircle2 } from "lucide-react"
-
+import teamPhoto from "@/assets/images/professional-team-collaborating-in-modern-office-w.jpg"
 
 const benefits = [
   {
@@ -42,7 +42,7 @@ export function WhyChooseUs() {
           {/* Left side - Image */}
           <div className="relative">
             <div className="relative aspect-[4/3] rounded-3xl overflow-hidden">
-              <img src="../src/assets/images/professional-team-collaborating-in-modern-office-w.jpg" alt="Equipe colaborando" className="object-cover" />
+              <img src={teamPhoto} alt="Equipe colaborando" className="object-cover" />
             </div>
             <div className="absolute -bottom-6 -right-6 bg-[#113851] border-b-2 border-r-2 text-primary-foreground p-8 rounded-2xl shadow-xl max-w-xs">
               <p className="text-4xl font-bold mb-1">99.9%</p>

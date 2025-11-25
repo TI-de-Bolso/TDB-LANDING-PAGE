@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button"
 import { Menu } from "lucide-react"
 import { useState } from "react"
+import logoBranca from "@/assets/images/logoTDB_vertical_branca.png"
 
 
 export function Header() {
@@ -12,7 +13,7 @@ export function Header() {
         <div className="flex items-center justify-between">
           <a href="#" className="flex items-center gap-3">
             <img
-              src="..\src\assets\images\logoTDB_vertical_branca.png"
+              src={logoBranca}
               alt="TI de Bolso"
               width={180}
               height={40}
