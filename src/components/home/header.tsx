@@ -40,12 +40,6 @@ export function Header() {
             >
               Planos
             </a>
-            <a
-              href="#depoimentos"
-              className="text-sm font-medium text-white hover:border-b-2 transition-colors"
-            >
-              Depoimentos
-            </a>
           </nav>
 
           <div className="hidden md:flex items-center gap-3">
