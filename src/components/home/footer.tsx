@@ -1,4 +1,5 @@
 import { Mail, Phone, MapPin } from "lucide-react"
+import logoBranca from "@/assets/images/logoTDB_vertical_branca.png"
 
 export function Footer() {
   return (
@@ -7,7 +8,7 @@ export function Footer() {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
           <div>
             <img
-              src="..\src\assets\images\logoTDB_vertical_branca.png"
+              src={logoBranca}
               alt="TI de Bolso"
               width={160}
               height={36}
@@ -77,7 +78,7 @@ export function Footer() {
               </li>
               <li className="flex items-start gap-2">
                 <Phone className="h-4 w-4 mt-0.5 flex-shrink-0" />
-                <a href="tel:+551199999999" className="hover:border-b transition-colors">
+                <a href="tel:71999356032" className="hover:border-b transition-colors">
                   (71) 9 99935-6032
                 </a>
               </li>
