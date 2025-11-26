@@ -60,25 +60,25 @@ export function Header() {
           <nav className="md:hidden pt-4 pb-2 flex flex-col gap-3">
             <a
               href="#servicos"
-              className="text-sm font-medium text-foreground/80 hover:text-foreground transition-colors py-2"
+              className="text-sm font-medium text-white hover:border-b-2 transition-colors"
             >
               Serviços
             </a>
             <a
               href="#por-que-nos"
-              className="text-sm font-medium text-foreground/80 hover:text-foreground transition-colors py-2"
+              className="text-sm font-medium text-white hover:border-b-2 transition-colors"
             >
               Por que nós
             </a>
             <a
               href="#planos"
-              className="text-sm font-medium text-foreground/80 hover:text-foreground transition-colors py-2"
+              className="text-sm font-medium text-white hover:border-b-2 transition-colors"
             >
               Planos
             </a>
             <a
               href="#depoimentos"
-              className="text-sm font-medium text-foreground/80 hover:text-foreground transition-colors py-2"
+              className="text-sm font-medium text-white hover:border-b-2 transition-colors"
             >
               Depoimentos
             </a>

@@ -5,7 +5,7 @@ import { ArrowRight, CheckCircle2 } from "lucide-react"
 export function HeroSection() {
   return (
     <section className="pt-16 bg-[#0D2B3E]">
-      <div className="relative w-full h-150 lg:h-150 bg-[url('/src/assets/images/banner_home.png')] bg-no-repeat bg-cover bg-right max-h-[800px]">
+      <div className="relative w-full h-180 lg:h-150 bg-[url('/src/assets/images/banner_home.png')] bg-no-repeat bg-cover bg-right max-h-[800px]">
               <div className="absolute inset-0 flex flex-col pb-10 justify-end sm:justify-center items-start px-10 ">
                 <div className="absolute inset-0 bg-gradient-to-r from-[#0D2B3E]/100 to-black/1"></div>
                  <div className="mb-6 px-4 py-2 rounded-full z-10 border-white border-2 bg-transparent">

@@ -34,7 +34,7 @@ export function PricingSection() {
           </Button>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-12 sm:gap-8">
           {/* Plano Essencial */}
           <Card className="p-8 relative flex flex-col border-none hover:outline-white hover:outline-2 transition-colors bg-[#1a587f] text-white">
             <div className="mb-6">
@@ -45,9 +45,8 @@ export function PricingSection() {
             </div>
 
             <div className="mb-6 pb-6 border-b">
-              <div className="text-sm text-gray-100 mb-1">Suporte para</div>
+              <div className="text-sm text-gray-100 mb-1">Suporte ideal para</div>
               <div className="text-3xl font-bold">Até 3 máquinas</div>
-              <div className="text-sm text-gray-100 mt-2">1 visita presencial/mês*</div>
             </div>
 
             {!showDetails ? (
@@ -129,9 +128,8 @@ export function PricingSection() {
             </div>
 
             <div className="mb-6 pb-6 border-b">
-              <div className="text-sm text-gray-100 mb-1">Suporte para</div>
+              <div className="text-sm text-gray-100 mb-1">Suporte ideal para</div>
               <div className="text-3xl font-bold">Até 10 máquinas</div>
-              <div className="text-sm text-gray-100 mt-2">4 visitas presencial/mês*</div>
             </div>
 
             <div className="mb-4">
@@ -229,9 +227,8 @@ export function PricingSection() {
             </div>
 
             <div className="mb-6 pb-6 border-b">
-              <div className="text-sm text-gray-100 mb-1">Suporte para</div>
-              <div className="text-3xl font-bold">20+ máquinas</div>
-              <div className="text-sm text-gray-100 mt-2">12 visitas presencial/mês*</div>
+              <div className="text-sm text-gray-100 mb-1">Suporte ideal para</div>
+              <div className="text-3xl font-bold">10+ máquinas</div>
             </div>
 
             <div className="mb-4">

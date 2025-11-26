@@ -19,7 +19,7 @@ interface Props {
 
 const Home: React.FC<Props> = () => {
   return (
-    <div className=''>
+    <div className='overflow-x-hidden'>
       <Header/>
       <HeroSection/>
       <StatsSection/>
