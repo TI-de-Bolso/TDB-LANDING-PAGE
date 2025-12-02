@@ -5,7 +5,6 @@ import { StatsSection } from '@/components/home/stats-section';
 import { WhyChooseUs } from '@/components/home/why-choose-us';
 import { ProcessSection } from '@/components/home/process-section';
 import { ServicesSection } from '@/components/home/services-section';
-import { PricingSection } from '@/components/home/pricing-section';
 import { FAQSection } from '@/components/home/faq-section';
 import { Footer } from '@/components/home/footer';
 import { ContactSection } from '@/components/home/contact-section';
