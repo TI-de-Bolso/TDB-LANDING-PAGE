@@ -33,7 +33,7 @@ export function ProcessSection() {
     <section className="py-20 px-4 bg-[#113851] text-white ">
       <div className="container mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-5xl font-bold mb-4 text-balance">Como Funciona</h2>
+          <h2 className="text-3xl md:text-5xl font-bold mb-4 text-balance">Como funciona nosso suporte</h2>
           <p className="text-lg text-gray-100 max-w-2xl mx-auto text-pretty">
             Nossa metodologia comprovada para transformar a TI da sua empresa
           </p>

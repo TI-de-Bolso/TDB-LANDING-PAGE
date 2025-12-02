@@ -14,7 +14,7 @@ import { WhatsAppFloat } from '@/components/home/whatsapp-float';
 
 
 interface Props {
-  // props opcional
+  // props if i need
 }
 
 const Home: React.FC<Props> = () => {
@@ -26,7 +26,6 @@ const Home: React.FC<Props> = () => {
       <WhyChooseUs/>
       <ProcessSection/>
       <ServicesSection/>
-      <PricingSection/>
       <FAQSection/>
       <ContactSection/>
       <CtaSection/>

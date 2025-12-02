@@ -2,44 +2,54 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 
 const faqs = [
   {
-    question: "Como funciona o atendimento remoto?",
+    question: "Quais serviços a TI de Bolso oferece?",
     answer:
-      "Utilizamos ferramentas profissionais de acesso remoto que permitem resolver a maioria dos problemas sem precisar ir até sua empresa. É rápido, seguro e eficiente. Você nos autoriza o acesso e resolvemos o problema enquanto você continua trabalhando.",
+      "Oferecemos uma gama completa de soluções tecnológicas: Suporte Técnico em TI, Desenvolvimento de Websites, Desenvolvimento de Sistemas Web, Design Gráfico e UI/UX, Infraestrutura e Cloud, além de Consultoria em TI. Somos seu parceiro tecnológico completo.",
   },
   {
-    question: "Quanto tempo leva para ter uma resposta do suporte?",
+    question: "Como funciona o processo de desenvolvimento de sites e sistemas?",
     answer:
-      "O tempo de resposta varia conforme o plano contratado. No plano Essencial, respondemos em até 24h. No Operacional, em até 4h. No Empresarial, você tem atendimento prioritário com resposta quase imediata durante horário comercial.",
+      "Nosso processo segue 4 etapas: Descoberta (entendemos suas necessidades), Planejamento (definimos escopo, prazos e orçamento), Desenvolvimento (criamos com atualizações constantes) e Entrega (lançamos e oferecemos suporte contínuo). Você acompanha cada fase.",
   },
   {
-    question: "Vocês atendem finais de semana e feriados?",
+    question: "Quanto tempo leva para desenvolver um site ou sistema?",
     answer:
-      "Nosso atendimento padrão é em horário comercial (segunda a sexta, 8h às 18h). Para empresas com plano Empresarial, podemos criar acordos personalizados incluindo atendimento em horários estendidos ou emergências.",
+      "Depende da complexidade. Um site institucional simples leva de 2 a 4 semanas. Landing pages podem ficar prontas em 1 semana. Sistemas web customizados variam de 1 a 6 meses, dependendo das funcionalidades. Sempre definimos prazos claros no início.",
   },
   {
-    question: "E se eu tiver um problema que não conseguem resolver remotamente?",
+    question: "Vocês oferecem suporte após a entrega do projeto?",
     answer:
-      "Nesse caso, agendamos uma visita presencial conforme as visitas incluídas no seu plano. Se precisar de visitas extras, elas são cobradas à parte com valores previamente acordados.",
+      "Sim! Todos os nossos projetos incluem um período de suporte pós-entrega para ajustes e correções. Também oferecemos planos de manutenção contínua para manter seu site ou sistema sempre atualizado e seguro.",
   },
   {
-    question: "Posso mudar de plano depois?",
+    question: "Como funciona o atendimento de suporte técnico?",
     answer:
-      "Sim! Você pode fazer upgrade ou downgrade do seu plano a qualquer momento. Basta nos avisar com antecedência e ajustamos conforme a necessidade da sua empresa.",
+      "Utilizamos ferramentas profissionais de acesso remoto que permitem resolver a maioria dos problemas sem precisar ir até sua empresa. É rápido, seguro e eficiente. Para casos que exigem presença física, agendamos visitas técnicas.",
   },
   {
-    question: "Vocês fazem backup dos meus dados?",
+    question: "Vocês criam identidade visual completa ou só o site?",
     answer:
-      "Configuramos e orientamos sobre backup, mas a responsabilidade final pelos dados é sempre da empresa contratante. Recomendamos e implementamos soluções de backup automático para garantir a segurança das informações.",
+      "Oferecemos ambos! Podemos criar apenas o site usando sua identidade existente, ou desenvolver toda sua identidade visual do zero: logo, paleta de cores, tipografia, materiais de marketing e depois aplicar tudo no site e sistemas.",
   },
   {
-    question: "Atendem qual região?",
+    question: "Qual a diferença entre site e sistema web?",
     answer:
-      "Nosso suporte remoto atende qualquer lugar do Brasil. Para atendimento presencial, consulte nossa área de cobertura - geralmente atendemos a região local e cidades próximas.",
+      "Um site é focado em apresentar informações e atrair clientes (institucional, landing page, portfólio). Um sistema web é uma aplicação com funcionalidades interativas como painéis administrativos, gestão de dados, automações e integrações com outros sistemas.",
   },
   {
-    question: "O que não está incluso nos planos?",
+    question: "Vocês trabalham com hospedagem e domínio?",
     answer:
-      "Hardware, licenças de software de terceiros, internet, infraestrutura física (cabos, switches novos, etc.) e serviços que exigem especialistas externos (como desenvolvimento de software customizado) não estão inclusos, mas podemos orientar e cotá-los separadamente.",
+      "Sim! Cuidamos de toda a infraestrutura: registro de domínio, configuração de hospedagem, certificados SSL, e-mails profissionais e manutenção de servidores. Oferecemos soluções em nuvem escaláveis conforme sua necessidade.",
+  },
+  {
+    question: "Atendem empresas de qual porte e região?",
+    answer:
+      "Atendemos desde profissionais autônomos até médias empresas. Nossos serviços digitais (desenvolvimento, design, consultoria) atendem todo o Brasil. Para suporte presencial, consulte nossa área de cobertura regional.",
+  },
+  {
+    question: "Como é feito o orçamento?",
+    answer:
+      "Após entender seu projeto em uma conversa inicial (sem compromisso), enviamos uma proposta detalhada com escopo, cronograma e valores. Trabalhamos com preços justos e transparentes, sem surpresas. Entre em contato pelo WhatsApp para começar!",
   },
 ]
 

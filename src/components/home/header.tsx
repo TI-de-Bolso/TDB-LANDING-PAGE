@@ -24,30 +24,24 @@ export function Header() {
           <nav className="hidden md:flex items-center gap-8 ">
             <a
               href="#servicos"
-              className="text-sm font-medium text-white hover:border-b-2 transition-colors"
+              className="text-sm font-medium text-white border-b-2 border-transparent hover:border-white transition-colors"
             >
               Serviços
             </a>
             <a
               href="#por-que-nos"
-              className="text-sm font-medium text-white hover:border-b-2 transition-colors"
+              className="text-sm font-medium text-white border-b-2 border-transparent hover:border-white transition-colors"
             >
               Por que nós
-            </a>
-            <a
-              href="#planos"
-              className="text-sm font-medium text-white hover:border-b-2 transition-colors"
-            >
-              Planos
             </a>
           </nav>
 
           <div className="hidden md:flex items-center gap-3">
-            <Button variant="ghost" size="sm" asChild>
+            <Button variant="ghost" size="sm" asChild className="hover:border-white border-b-2 border-r-2 border-transparent hover:bg-transparent hover:text-white">
               <a href="#contato">Entrar em Contato</a>
             </Button>
-            <Button size="sm" className="bg-slate-200 text-[#0D2B3E] hover:bg-white" asChild>
-              <a href="#planos">Começar Agora</a>
+            <Button size="sm" variant="outline" className="bg-white text-[#0D2B3E] hover:bg-[#113851] hover:text-white" asChild>
+              <a href="#servicos">Começar Agora</a>
             </Button>
           </div>
 
@@ -60,33 +54,22 @@ export function Header() {
           <nav className="md:hidden pt-4 pb-2 flex flex-col gap-3">
             <a
               href="#servicos"
-              className="text-sm font-medium text-white hover:border-b-2 transition-colors"
+              className="text-sm font-medium text-white hover:border-white border-b-2 border-transparent transition-colors"
             >
               Serviços
             </a>
             <a
               href="#por-que-nos"
-              className="text-sm font-medium text-white hover:border-b-2 transition-colors"
+              className="text-sm font-medium text-white hover:border-white border-b-2 border-transparent transition-colors"
             >
               Por que nós
             </a>
-            <a
-              href="#planos"
-              className="text-sm font-medium text-white hover:border-b-2 transition-colors"
-            >
-              Planos
-            </a>
-            <a
-              href="#depoimentos"
-              className="text-sm font-medium text-white hover:border-b-2 transition-colors"
-            >
-              Depoimentos
-            </a>
-            <div className="flex flex-col gap-2 pt-2">
-              <Button variant="ghost" size="sm" asChild>
+           
+            <div className="flex flex-col gap-2 pt-1">
+              <Button variant="ghost" size="sm" asChild className="hover:border-white border-b-2 border-r-2 border-transparent hover:bg-transparent hover:text-white">
                 <a href="#contato">Entrar em Contato</a>
               </Button>
-              <Button size="sm" asChild>
+              <Button size="sm" variant="outline" className="bg-white text-[#0D2B3E] hover:bg-[#113851] hover:text-white" asChild>
                 <a href="#planos">Começar Agora</a>
               </Button>
             </div>
