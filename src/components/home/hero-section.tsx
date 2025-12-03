@@ -20,7 +20,7 @@ export function HeroSection() {
                 <div className="flex flex-col sm:flex-row gap-4 mb-10 z-10">
                   <Button size="lg" variant="outline" className="gap-2 text-base text-[#113851] hover:text-white bg-white hover:bg-[#0D2B3E]" asChild>
                       <a href="#planos" >
-                          Ver Planos
+                          Ver Serviços
                           <ArrowRight className="h-5 w-5" />
                       </a>
                   </Button>
