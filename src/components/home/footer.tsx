@@ -55,8 +55,8 @@ export function Footer() {
                 </a>
               </li>
               <li>
-                <a href="#planos" className="hover:border-b transition-colors">
-                  Planos
+                <a href="#servicos" className="hover:border-b transition-colors">
+                  Serviços
                 </a>
               </li>
               <li>
