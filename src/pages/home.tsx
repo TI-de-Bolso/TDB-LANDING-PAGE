@@ -10,6 +10,7 @@ import { Footer } from '@/components/home/footer';
 import { ContactSection } from '@/components/home/contact-section';
 import { CtaSection } from '@/components/home/cta-section';
 import { WhatsAppFloat } from '@/components/home/whatsapp-float';
+import { PlansSection } from '@/components/home/pricing-section';
 
 
 interface Props {
@@ -25,6 +26,7 @@ const Home: React.FC<Props> = () => {
       <WhyChooseUs/>
       <ProcessSection/>
       <ServicesSection/>
+      <PlansSection/>
       <FAQSection/>
       <ContactSection/>
       <CtaSection/>
