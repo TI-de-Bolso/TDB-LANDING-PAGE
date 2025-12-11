@@ -11,7 +11,7 @@ export function Header() {
     <header className="fixed top-0 left-0 right-0 z-50 bg-[#0D2B3E]/90 text-white backdrop-blur-md">
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
-          <Link to="/" className="flex items-center gap-3">
+          <Link to="/#home" className="flex items-center gap-3">
             <img
               src={logoBranca}
               alt="TI de Bolso"
@@ -22,6 +22,12 @@ export function Header() {
           </Link>
 
           <nav className="hidden md:flex items-center gap-8">
+            <Link
+              to="/#home"
+              className="text-sm font-medium text-white border-b-2 border-transparent hover:border-white transition-colors"
+            >
+              Inicio
+            </Link>
             <Link
               to="/#servicos"
               className="text-sm font-medium text-white border-b-2 border-transparent hover:border-white transition-colors"
@@ -59,7 +65,7 @@ export function Header() {
               className="bg-white text-[#0D2B3E] hover:bg-[#113851] hover:text-white border-white"
               asChild
             >
-              <Link to="/#planos">Começar Agora</Link>
+              <Link to="/#servicos">Começar Agora</Link>
             </Button>
           </div>
 

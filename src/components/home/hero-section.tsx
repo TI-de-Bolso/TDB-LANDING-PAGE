@@ -5,7 +5,7 @@ import { Link } from "react-router-dom"
 
 export function HeroSection() {
   return (
-    <section className="pt-16 bg-[#0D2B3E]">
+    <section id='home' className="pt-16 bg-[#0D2B3E]">
       <div className="relative w-full h-180 lg:h-150 bg-[url('/src/assets/images/banner_home.png')] bg-no-repeat bg-cover bg-right max-h-[800px]">
               <div className="absolute inset-0 flex flex-col pb-10 justify-end sm:justify-center items-start px-10 ">
                 <div className="absolute inset-0 bg-gradient-to-r from-[#0D2B3E]/100 to-black/1"></div>
