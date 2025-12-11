@@ -1,6 +1,7 @@
 import { useState } from "react"
 import { Button } from "@/components/ui/button"
 import { Check, ChevronDown, ChevronUp, Monitor, ArrowRight, Clock } from "lucide-react"
+import { Link } from "react-router-dom"
 
 
 const plans = [
@@ -208,10 +209,10 @@ export function PlansSection() {
 
               {plan.isEnterprise ? (
                 <Button className="w-full gap-2 bg-[#154766]" variant="default" asChild>
-                  <a href="/business">
+                  <Link to="/business">
                     Conhecer TDB Business
                     <ArrowRight className="h-4 w-4" />
-                  </a>
+                  </Link>
                 </Button>
               ) : (
                 <Button className={`w-full ${plan.popular ? "bg-[#257cb2]" : "outline"}`} variant={plan.popular ? "default" : "outline"} asChild>
