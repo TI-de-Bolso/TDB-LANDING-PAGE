@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button"
 import { ArrowRight, CheckCircle2 } from "lucide-react"
+import { Link } from "react-router-dom"
 
 
 export function HeroSection() {
@@ -19,13 +20,13 @@ export function HeroSection() {
                     inovação constante ao alcance da sua empresa.</p>
                 <div className="flex flex-col sm:flex-row gap-4 mb-10 z-10">
                   <Button size="lg" variant="outline" className="gap-2 text-base text-[#113851] hover:text-white bg-white hover:bg-[#0D2B3E]" asChild>
-                      <a href="#planos" >
+                      <Link to="/#servicos" >
                           Ver Serviços
                           <ArrowRight className="h-5 w-5" />
-                      </a>
+                      </Link>
                   </Button>
                   <Button size="lg" variant="outline" className="text-base bg-transparent text-white" asChild>
-                    <a href="#contato">Falar com Especialista</a>
+                    <Link to="/#contato">Falar com Especialista</Link>
                   </Button>
               </div>
               <div className="flex flex-wrap items-center gap-6 text-sm text-white z-10">

@@ -1,0 +1,22 @@
+{
+  "name": "TI de Bolso",
+  "short_name": "TI de Bolso",
+  "description": "Suporte técnico acessível, rápido e confiável para pequenas empresas, MEIs e autônomos.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#0a0a0a",
+  "theme_color": "#0a0a0a",
+  "icons": [
+    {
+      "src": "/og-image.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/src/assets/images/logoTDB_branca.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

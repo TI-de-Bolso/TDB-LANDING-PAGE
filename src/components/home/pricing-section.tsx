@@ -162,7 +162,7 @@ export function PlansSection() {
             >
               {plan.popular && (
                 <div className="absolute -top-3 left-1/2 -translate-x-1/2">
-                  <span className="bg-[#154766] text-primary-foreground text-xs font-semibold px-3 py-1 rounded-full">
+                  <span className="bg-[#257cb2] text-primary-foreground text-xs font-semibold px-3 py-1 rounded-full">
                     Mais Popular
                   </span>
                 </div>
@@ -214,7 +214,7 @@ export function PlansSection() {
                   </a>
                 </Button>
               ) : (
-                <Button className={`w-full ${plan.popular ? "bg-[#154766]" : "outline"}`} variant={plan.popular ? "default" : "outline"} asChild>
+                <Button className={`w-full ${plan.popular ? "bg-[#257cb2]" : "outline"}`} variant={plan.popular ? "default" : "outline"} asChild>
                   <a
                     href={`https://api.whatsapp.com/send/?phone=5571999356032&text=Ol%C3%A1%21+Gostaria+de+saber+mais+sobre+o+Plano+${plan.name}+da+TI+de+Bolso.&type=phone_number&app_absent=0`}
                     target="_blank"

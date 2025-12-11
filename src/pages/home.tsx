@@ -11,6 +11,7 @@ import { ContactSection } from '@/components/home/contact-section';
 import { CtaSection } from '@/components/home/cta-section';
 import { WhatsAppFloat } from '@/components/home/whatsapp-float';
 import { PlansSection } from '@/components/home/pricing-section';
+import { Helmet } from 'react-helmet';
 
 
 interface Props {
@@ -20,6 +21,11 @@ interface Props {
 const Home: React.FC<Props> = () => {
   return (
     <div className='overflow-x-hidden'>
+       <Helmet>
+        <title>TI de Bolso | Suporte Técnico e Soluções Ágeis</title>
+        <meta name="description" content="Descrição da home" />
+      </Helmet>
+      
       <Header/>
       <HeroSection/>
       <StatsSection/>
