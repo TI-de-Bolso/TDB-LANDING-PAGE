@@ -32,7 +32,7 @@ const Home: React.FC<Props> = () => {
       <WhyChooseUs/>
       <ProcessSection/>
       <ServicesSection/>
-      <PlansSection/>
+      {/*<PlansSection/>*/}
       <FAQSection/>
       <ContactSection/>
       <CtaSection/>
